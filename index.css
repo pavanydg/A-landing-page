@@ -1,0 +1,120 @@
+body{
+    min-height: 100vh;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    color: white;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+.header>p{
+    font-size: 24px;
+}
+.header-links{
+    font-size: 18px;
+    padding-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+.main-content{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-basis: 450px;
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 75px 75px 0px 75px;
+}
+.btn-1{
+    background-color: #3882F6;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+}
+.image-one{
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+}
+.extra-content{
+    background-color: white;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder; 
+    padding-bottom: 50px;   
+}
+.extra-title{
+    padding: 20px
+}
+.extra-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border: #3882F6 solid;
+    border-radius: 20px;
+}
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-basis: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.signup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 250px;
+}
+.blue-box{
+    width: 70%;
+    height: 100px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.btn-2{
+    width: 150px;
+    background-color: #3882F6;
+    border: white solid;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    flex-basis: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
